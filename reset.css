@@ -88,7 +88,7 @@ video {
   padding: 0;
   border: 0;
   /* font-size: 100%; */
-  font: inherit;
+  /* font: inherit; */
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -106,7 +106,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 1.5;
 }
 ol,
 ul {
@@ -150,6 +150,9 @@ table {
 .pd16 {
   padding: 1.6rem;
 }
+.pd20 {
+  padding: 2rem;
+}
 .pd24 {
   padding: 2.4rem;
 }
@@ -188,5 +191,22 @@ table {
   align-items: center;
   justify-content: center;
 }
-
+.font-l {
+  font-size: 2.4rem;
+}
+.font-m {
+  font-size: 2rem;
+}
+.font-s {
+  font-size: 1.6rem;
+}
+.b {
+  font-weight: 700;
+}
+.bder {
+  font-weight: 900;
+}
+.f-gray {
+  color: var(--gray);
+}
 /* some reusable codes */

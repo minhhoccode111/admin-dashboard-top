@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* reset css */
+/* some reusable codes */
+.pd-s {
+  padding: 0.4rem 0.8rem;
+}
+.pd-m {
+  padding: 0.8rem 1.6rem;
+}
+.pd-l {
+  padding: 1.6rem 3.2rem;
+}
+.pd4 {
+  padding: 0.4rem;
+}
+.pd8 {
+  padding: 0.8rem;
+}
+.pd12 {
+  padding: 1.2rem;
+}
+.pd16 {
+  padding: 1.6rem;
+}
+.pd24 {
+  padding: 2.4rem;
+}
+.pd32 {
+  padding: 3.2rem;
+}
+.mg-s {
+  margin: 0.4rem 0.8rem;
+}
+.mg-m {
+  margin: 0.8rem 1.6rem;
+}
+.mg-l {
+  margin: 1.6rem 3.2rem;
+}
+.mg4 {
+  margin: 0.4rem;
+}
+.mg8 {
+  margin: 0.8rem;
+}
+.mg12 {
+  margin: 1.2rem;
+}
+.mg16 {
+  margin: 1.6rem;
+}
+.mg24 {
+  margin: 2.4rem;
+}
+.mg32 {
+  margin: 3.2rem;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* some reusable codes */

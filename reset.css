@@ -168,6 +168,7 @@ table {
 .mg-l {
   margin: 1.6rem 3.2rem;
 }
+
 .mg4 {
   margin: 0.4rem;
 }
@@ -176,6 +177,9 @@ table {
 }
 .mg12 {
   margin: 1.2rem;
+}
+.mg10-0 {
+  margin: 1rem 0;
 }
 .mg16 {
   margin: 1.6rem;
@@ -208,5 +212,14 @@ table {
 }
 .f-gray {
   color: var(--gray);
+}
+.bdrs10 {
+  border-radius: 1rem;
+}
+.bdrs50 {
+  border-radius: 50%;
+}
+.box-shadow {
+  box-shadow: 2px 2px 1rem 1px black;
 }
 /* some reusable codes */

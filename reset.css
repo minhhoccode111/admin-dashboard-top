@@ -195,6 +195,14 @@ table {
   align-items: center;
   justify-content: center;
 }
+.center-vertical {
+  display: flex;
+  align-items: center;
+}
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+}
 .font-l {
   font-size: 2.4rem;
 }
@@ -221,5 +229,16 @@ table {
 }
 .box-shadow {
   box-shadow: 2px 2px 1rem 1px black;
+}
+.img-w100 {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.img-w24 {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: block;
+  margin: 0 auto;
 }
 /* some reusable codes */

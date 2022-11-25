@@ -59,12 +59,26 @@ h2 {
   display: grid;
   grid-template-columns: 4rem 1fr 4rem 6rem 16rem;
   margin: 1rem 3.2rem;
+  gap: 2rem;
+}
+input.header-top-input {
+  width: max(30rem, 80%);
+  max-width: 50rem;
+  height: 3.2rem;
+  border: none;
+  border-radius: 2rem;
+  outline: none;
+  padding: 0 2rem;
+  font-size: 1.6rem;
+}
+input.header-top-input:focus {
+  outline: 1px solid var(--cyan);
 }
 /* header top here */
 /* header bottom here */
 .header-bottom {
   display: grid;
-  grid-template-columns: 8rem 1fr 34rem;
+  grid-template-columns: 6.4rem 1fr 34rem;
   margin: 0 3.2rem;
   gap: 2rem;
 }
@@ -73,6 +87,14 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   gap: 2.4rem;
   margin: 0 2.4rem;
+}
+.button {
+  background-color: var(--cyan);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  color: var(--white);
+  font-weight: 700;
 }
 /* header bottom here */
 
@@ -138,10 +160,8 @@ h2 {
 .main-projects-ctn {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
-  /* grid-template-rows: repeat(auto-fit, minmax(24, 1fr)); */
   gap: 2rem;
 }
-
 .main-projects-ctn .project {
   padding: 2rem;
   border-left: 0.8rem solid var(--green);

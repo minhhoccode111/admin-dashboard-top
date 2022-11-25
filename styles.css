@@ -42,7 +42,7 @@ h2 {
   background: var(--gray);
 
   display: grid;
-  grid-template-columns: 26rem 1fr;
+  grid-template-columns: 22rem 1fr;
   grid-template-rows: 16rem 1fr;
 }
 
@@ -80,7 +80,7 @@ input.header-top-input:focus {
   display: grid;
   grid-template-columns: 6.4rem 1fr 34rem;
   margin: 0 3.2rem;
-  gap: 2rem;
+  gap: 1rem;
 }
 .header-bottom-feature-buttons {
   display: grid;
@@ -120,8 +120,9 @@ input.header-top-input:focus {
 .aside-mid-li,
 .aside-bottom-li {
   display: grid;
-  gap: 2rem;
-  grid-template-columns: 6.8rem 1fr;
+  gap: 0.4rem;
+  grid-template-columns: 6rem 1fr;
+  margin-left: 1rem;
 }
 /* aside top here */
 /* aside mid here */
@@ -130,10 +131,17 @@ input.header-top-input:focus {
   grid-template-rows: repeat(6, 1fr);
   gap: 1.2rem;
 }
+.aside-bottom-icon,
+.aside-mid-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 .aside-mid-icon-name,
 .aside-bottom-icon-name {
-  line-height: calc(24rem / 6);
-  /* center texts inside vertically */
+  display: flex;
+  align-items: center;
+  padding-top: 0.6rem;
 }
 /* aside mid here */
 /* aside bottom here */
@@ -142,6 +150,7 @@ input.header-top-input:focus {
   grid-template-rows: repeat(3, 1fr);
   gap: 1.2rem;
 }
+
 /* aside bottom here */
 /* aside here */
 /* main here */

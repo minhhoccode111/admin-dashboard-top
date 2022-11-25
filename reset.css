@@ -203,6 +203,11 @@ table {
   display: flex;
   justify-content: center;
 }
+.center-vertical-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 .font-l {
   font-size: 2.4rem;
 }
@@ -230,6 +235,10 @@ table {
 .box-shadow {
   box-shadow: 2px 2px 1rem 1px black;
 }
+.img-ctn-by-height {
+  height: 100%;
+  aspect-ratio: 1;
+}
 .img-w100 {
   width: 100%;
   display: block;
@@ -239,6 +248,5 @@ table {
   width: 2.4rem;
   height: 2.4rem;
   display: block;
-  margin: 0 auto;
 }
 /* some reusable codes */
